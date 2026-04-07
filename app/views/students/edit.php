@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tambah Siswa</title>
+    <title>Edit Siswa</title>
     <link rel="stylesheet" href="/css/output.css">
 </head>
 
@@ -22,13 +22,13 @@
         <div class="mt-8rem space-y-4">
             <!-- Card Header Start -->
             <div class="bg-white shadow rounded-lg p-4">
-                <h1 class="text-xl font-bold">Tambah Siswa</h1>
-                <p>Menambahkan siswa ke dalam sistem</p>
+                <h1 class="text-xl font-bold">Edit Siswa</h1>
+                <p>Melakukan perubahan data siswa yang terdaftar</p>
             </div>
             <!-- Card Header End -->
 
             <!-- Card Content Start -->
-             <div class="bg-white shadow rounded-lg">
+            <div class="bg-white shadow rounded-lg">
                 <form action="" class="p-4 grid grid-cols-2 gap-4">
                     <div class="space-y-2">
                         <label class="block font-bold" for="name">Nama</label>
@@ -51,7 +51,7 @@
                         <button type="submit" class="py-2 px-4 bg-blue-500 rounded-lg text-white">Simpan</button>
                     </div>
                 </form>
-             </div>
+            </div>
             <!-- Card Content End -->
         </div>
     </main>
