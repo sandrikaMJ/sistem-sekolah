@@ -29,4 +29,3 @@ class StudentController extends Controller
       $this->view('students.edit');
     }
 }
- 
