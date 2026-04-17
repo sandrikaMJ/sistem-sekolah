@@ -20,7 +20,7 @@ class Student extends Database
         $result = $stmt->get_result();
  
         while($student = $result->fetch_assoc()) {
-            $student[] = $student;
+            $students[] = $student;
         }
  
         return $students;

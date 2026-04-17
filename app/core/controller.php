@@ -4,8 +4,12 @@ namespace App\Core;
 class Controller
 {
 
-public function view(string $view, array $data = [])
+
+    public function view(string $view, array $data = [])
     {
+        
+    extract($data);
+
         $view = str_replace(
             '.',
             '/',

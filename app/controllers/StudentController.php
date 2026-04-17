@@ -7,7 +7,6 @@ require_once '../app/Models/Student.php';
 use App\Core\Controller;
 use App\Models\Student;
 
-
 class StudentController extends Controller
 {
     public function index()
@@ -15,9 +14,9 @@ class StudentController extends Controller
       $studentModel = new Student();
       $students = $studentModel->getStudents();
 
-      print_r($students);
-
-      $this->view('students.index');
+      $this->view('students.index', [
+        'students' => $students
+      ]);
 
     }
  
